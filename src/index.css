@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer base{
+
+    html{
+        @apply font-Raleway;  
+    }
+}   */
+
+body{
+    @apply box-border font-Raleway overflow-x-hidden w-screen bg-[#2B2B2B] text-white
+}
